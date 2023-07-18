@@ -1,0 +1,25 @@
+body {
+    width: 100%;
+    font-family: sans-serif;
+    background: rgb(0,212,255);
+    background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(0,212,255,1) 38%, rgba(0,212,255,1) 59%, rgba(9,9,121,1) 98%, rgba(2,0,36,1) 100%);
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    color: navy;
+}
+
+progress {
+    border: 2px solid black;
+    height: 50px;
+    border-radius: 9px;
+    width: 98%;
+    background-color: whitesmoke;
+}
