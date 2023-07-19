@@ -23,3 +23,12 @@ progress {
     width: 98%;
     background-color: whitesmoke;
 }
+
+button {
+    background-color: skyblue;
+    width: 49%;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
