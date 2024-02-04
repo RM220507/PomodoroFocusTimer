@@ -1,8 +1,7 @@
 body {
-    width: 100%;
+    width: 100vw;
     font-family: sans-serif;
-    background: rgb(0,212,255);
-    background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(0,212,255,1) 38%, rgba(0,212,255,1) 59%, rgba(9,9,121,1) 98%, rgba(2,0,36,1) 100%);
+    background: #384E77;
 }
 
 h1 {
@@ -13,26 +12,30 @@ h1 {
 h2 {
     font-size: 50px;
     text-align: center;
-    color: navy;
+    color: #0D0630;
 }
 
 progress {
     border: 2px solid black;
     height: 50px;
-    border-radius: 9px;
-    width: 98%;
+    width: 95vw;
     background-color: whitesmoke;
+    display: flex;
+    margin: auto;
 }
 
 button {
-    background-color: skyblue;
-    width: 49%;
+    background-color: #8BBEB2;
+    display: block;
+    margin: auto;
+    width: 95vw;
     height: 50px;
     font-size: 30px;
     margin-top: 10px;
-    border-radius: 10px;
+    border-radius: 3px;
+    border: #18314F 2px solid;
 }
 
 button:hover {
-    background-color: aquamarine;
+    background-color: #E6F9AF;
 }
