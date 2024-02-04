@@ -1,5 +1,4 @@
 body {
-    width: 100vw;
     font-family: sans-serif;
     background: #384E77;
 }
@@ -22,6 +21,7 @@ progress {
     background-color: whitesmoke;
     display: flex;
     margin: auto;
+    box-sizing: border-box;
 }
 
 button {
@@ -34,6 +34,7 @@ button {
     margin-top: 10px;
     border-radius: 3px;
     border: #18314F 2px solid;
+    box-sizing: border-box;
 }
 
 button:hover {
